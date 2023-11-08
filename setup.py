@@ -1,10 +1,10 @@
-from setuptools import setup, find_packages
+import setuptools
 
-setup(
+setuptools.setup(
     name='gurupy',
-    version='0.2',
+    version='0.3',
     author='Harvey Wargo',
-    packages=find_packages(),
+    packages=setuptools.find_packages(include=['gurupy' , 'gurupy.*']),
     url='https://github.com/harveywargo2/guru-wrangler-py',
     keywords='stock financials dividends gurufocus',
     install_requires=[

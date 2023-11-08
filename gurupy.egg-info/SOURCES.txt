@@ -9,3 +9,4 @@ gurupy.egg-info/SOURCES.txt
 gurupy.egg-info/dependency_links.txt
 gurupy.egg-info/requires.txt
 gurupy.egg-info/top_level.txt
+test/test.py
