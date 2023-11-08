@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+gurupy/gurupy.egg-info/PKG-INFO
+gurupy/gurupy.egg-info/SOURCES.txt
+gurupy/gurupy.egg-info/dependency_links.txt
+gurupy/gurupy.egg-info/requires.txt
+gurupy/gurupy.egg-info/top_level.txt
