@@ -1,5 +1,6 @@
 import setuptools
 
+
 setuptools.setup(
     name='gurupy',
     version='0.3',
@@ -8,7 +9,8 @@ setuptools.setup(
     url='https://github.com/harveywargo2/guru-wrangler-py',
     keywords='stock financials dividends gurufocus',
     install_requires=[
-        'requests'
+        'requests',
+        'pandas'
     ]
 
 )
