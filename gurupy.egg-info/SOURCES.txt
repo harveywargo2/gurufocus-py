@@ -3,10 +3,15 @@ README.md
 setup.cfg
 setup.py
 gurupy/__init__.py
+gurupy/dividenddata.py
+gurupy/findata.py
+gurupy/pricedata.py
 gurupy/sourcedata.py
+gurupy/waterfall.py
 gurupy.egg-info/PKG-INFO
 gurupy.egg-info/SOURCES.txt
 gurupy.egg-info/dependency_links.txt
 gurupy.egg-info/requires.txt
 gurupy.egg-info/top_level.txt
 test/test.py
+test/test2.py
