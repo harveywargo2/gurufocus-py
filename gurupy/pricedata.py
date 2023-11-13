@@ -29,7 +29,7 @@ def price_history_date_index_df(token: str, ticker: str):
     """
     :param token: String of API Token
     :param ticker: String of Stock Ticker
-    :return : DataFrame of Dividend History Data
+    :return : DataFrame of Dividend History Data with Index as Date
     """
     price_df = price_history_df(token, ticker)
     price_dfa = price_df.set_index('Date')
