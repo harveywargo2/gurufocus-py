@@ -12,16 +12,6 @@ def stock_summary_us(token: str, ticker: str):
     return response
 
 
-def historical_stock_financials(token: str, ticker: str):
-    """
-    :param token: API Token String
-    :param ticker: Stock Ticker String
-    :return: DICT of Gurufocus Company Financials up to 30 years of annual data and 120 quarters of quarterly data
-    """
-    response = requests.get(f'https://api.gurufocus.com/public/user/{str(token)}/stock/{str(ticker)}/financials').json()
-    return response
-
-
 def stock_key_statistics(token: str, ticker: str):
     """
     :param token: API Token String
