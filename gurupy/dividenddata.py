@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 from datetime import date
-import gurupy as gf
+import gurupy
 
 
 def dividend_history(token: str, ticker: str):
@@ -54,7 +54,7 @@ def dyt_quarterly_df(token: str, ticker: str ):
     :return: Dividend Yield Theory Dataframe for last 30 years
     """
     div_df = dividend_history_exdate_index_df(token, ticker)
-    price_df = gf.price_history_date_index_df(token, ticker)
+    price_df = gurupy.price_history_date_index_df(token, ticker)
     div_var = 0.0
     div_frequency = 4
 
