@@ -1,2 +1,4 @@
-# guru-wrangler-py
-Python Code that leverages GuruFocus API 
+# gurupy
+Python Modules that leverages GuruFocus API 
+
+
