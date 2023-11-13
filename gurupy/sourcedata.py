@@ -42,16 +42,6 @@ def stock_current_quote(token: str, ticker: str):
     return response
 
 
-def historical_close_price(token: str, ticker: str):
-    """
-    :param token: API Token String
-    :param ticker: Stock Ticker String
-    :return: LIST of Company historical price/unadjusted price/Full Price/Volume data
-    """
-    response = requests.get(f'https://api.gurufocus.com/public/user/{str(token)}/stock/{str(ticker)}/price').json()
-    return response
-
-
 def historical_ownership(token: str, ticker: str):
     """
     :param token: API Token String
@@ -101,15 +91,6 @@ def stock_executives(token: str, ticker: str):
     response = requests.get(f'https://api.gurufocus.com/public/user/{str(token)}/stock/{str(ticker)}/executives').json()
     return response
 
-
-def historical_dividend(token: str, ticker: str):
-    """
-    :param token: API Token String
-    :param ticker: Stock Ticker String
-    :return: LIST of 30 years dividend history data of a stock.
-    """
-    response = requests.get(f'https://api.gurufocus.com/public/user/{str(token)}/stock/{str(ticker)}/dividend').json()
-    return response
 
 
 def analyst_estimates(token: str, ticker: str):
