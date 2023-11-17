@@ -13,7 +13,7 @@ setuptools.setup(
     packages=setuptools.find_packages(include=['gurupy', 'gurupy.*']),
     url='https://github.com/harveywargo2/guru-wrangler-py',
     keywords='stock financials dividends gurufocus gurupy 10K',
-    classifiers=['Programming Language::Python::3'],
+    classifiers=['Programming Language :: Python'],
     install_requires=[
         'requests',
         'pandas'
