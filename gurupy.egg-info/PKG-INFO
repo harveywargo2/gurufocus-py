@@ -1,12 +1,13 @@
 Metadata-Version: 2.1
 Name: gurupy
-Version: 0.4
+Version: 0.5
 Summary: Python Data Wrangler Modules for GuruFocus Stock API
 Home-page: https://github.com/harveywargo2/guru-wrangler-py
 Author: Harvey Wargo
 License: UNKNOWN
 Keywords: stock financials dividends gurufocus gurupy 10K
 Platform: UNKNOWN
+Classifier: Programming Language::Python::3
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
 

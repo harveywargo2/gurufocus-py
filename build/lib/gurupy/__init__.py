@@ -1,1 +1,0 @@
-from gurupy.sourcedata import *
