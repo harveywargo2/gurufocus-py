@@ -15,12 +15,9 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
-keywords = "stock financials dividends gurufocus gurupy 10K"
+keywords = ["stock", "GuruFocus", "Gurupy", "Dividends", "10K"]
 
-dependencies = [
-    "requests",
-    "pandas"
-]
+dependencies = ["requests", "pandas"]
 
 requires-python = ">=3.9"
 
