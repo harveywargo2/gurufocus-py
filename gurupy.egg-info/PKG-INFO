@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: gurupy
+Version: 1.0
+Summary: Python Scripts/Modules to Interact with Gurufocus API
+Author: Harvey Wargo
+License: MIT License
+        
+        Copyright (c) 2023 Harvey Wargo 2
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/harveywargo2/gurufocus-py
+Keywords: stock,GuruFocus,Gurupy,Dividends,10K
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# GuruFocus-Py
+Python Scripts/Modules to Interact with Gurufocus API
+
+## API Overview
+[GuruFocus API Landing Page](https://www.gurufocus.com/api/overview)
+
+## Installation
+You can install gurupy from [PyPi](https://pypi.org/project/gurupy/)
+
+~~~
+python -m pip install gurupy
+~~~
+
+## Usage 
+
+Used to leverage GuruFocus API for stock analysis via jupyter notebooks
